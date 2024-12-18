@@ -1,0 +1,19 @@
+#cursor{
+    height: 7.5vw;
+    width: 7.5vw;
+    background-color: #14131394;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 1;
+    color: #fff;
+    border: #fff 1px solid;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+  }
+  
+  #cursor h5{
+    font-size: 1.5vw;
+    font-weight: 100;
+  }

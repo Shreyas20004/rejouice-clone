@@ -1,0 +1,25 @@
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2.5rem;
+    position: fixed;
+    z-index: 11;
+    width: 100%;
+    background-color: transparent;
+    
+}
+
+
+nav h3{
+    font-size: 1.4vw;
+    font-weight: 100;
+    cursor:pointer;
+}
+  
+nav h4{
+    font-size: 1.2vw;
+    font-weight: 100;
+    cursor:pointer;
+}

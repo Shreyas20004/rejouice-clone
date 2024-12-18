@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'nb';
+  src: url(../assets/NBInternationalProBoo.ttf);
+}
+@font-face {
+  font-family: 'rj';
+  src: url(../assets/Rejouice-Headline.ttf);
+}
+
+
+#page1 video{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  object-fit: cover;
+}
+
+#page1-content{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  color: #fff;
+  display: flex;
+  z-index: 10;
+  background-color: transparent;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0vh;
+  cursor:default;
+
+}
+
+
+#page1-content h1{
+  height: 27vw;
+  font-family: 'rj';
+  font-size: 27vw;
+  font-weight: 500;
+  line-height: 27vw;
+}
+
